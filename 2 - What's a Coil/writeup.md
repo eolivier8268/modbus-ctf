@@ -1,5 +1,5 @@
 # Challenge - What's a Coil
-You have gained access to another modbus device at x.x.x.x. However, critical operational data is stored across several non-contiguous Modbus addresses, requiring you to extract information from both coils and holding registers. Your goal is to retrieve specific values from the system to reconstruct a 4-digit access code.
+You have gained access to another modbus device at 172.18.2.2. However, critical operational data is stored across several non-contiguous Modbus addresses, requiring you to extract information from both coils and holding registers. Your goal is to retrieve specific values from the system to reconstruct a 4-digit access code.
 
 Flag format: DELOGRAND{####}
 

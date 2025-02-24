@@ -18,7 +18,7 @@ packet = struct.pack('>HHHBBBBB', transaction_id, protocol_id, length, unit_id, 
 
 # Create a socket connection to the Modbus server
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.connect(("127.0.0.1", 502))
+    s.connect(("172.18.4.2", 502))
     s.sendall(packet)
     response = s.recv(1024)
 

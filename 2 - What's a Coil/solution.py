@@ -1,7 +1,7 @@
 from pymodbus.client import ModbusTcpClient
 
 # connect to client
-client = ModbusTcpClient("127.0.0.1", port=5020)
+client = ModbusTcpClient("172.18.2.2", port=5020)
 
 # get device info
 print(client.read_device_information())

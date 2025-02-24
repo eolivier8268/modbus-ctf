@@ -1,7 +1,7 @@
 from pymodbus.client import ModbusTcpClient
 
 # connect to client
-client = ModbusTcpClient("127.0.0.1", port=502)
+client = ModbusTcpClient("172.18.1.2", port=502)
 
 # poll the first 32 registers
 for i in range(32):

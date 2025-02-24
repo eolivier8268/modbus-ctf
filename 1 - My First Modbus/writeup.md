@@ -1,5 +1,5 @@
 # Challenge - My first Modbus
-A mysterious modbus device is running at x.x.x.x. The flag is stored in its holding registers, if only you could read them. 
+A mysterious modbus device is running at 172.18.1.2. The flag is stored in its holding registers, if only you could read them. 
 
 # Solution 1
 You simply need to read data from the registers. Each register holds a letter of the flag, staring with register 5. 

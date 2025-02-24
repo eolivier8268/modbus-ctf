@@ -1,5 +1,5 @@
 # Challenge - Denied
-We've found another modbus device. After doing some research, our SCADA guy told us that it is vulnerable to a denial of service attack. Crash the device to get the flag. The device's control panel is at 172.18.7.4:8080
+We've found another modbus device at 172.18.7.2. After doing some research, our SCADA guy told us that it is vulnerable to a denial of service attack. Crash the device to get the flag. The device's control panel is at http://172.18.7.4:8080
 
 # Hint
 What does normal operation look like for this device? Can you mimic "normal," but at an extremely high volume?
