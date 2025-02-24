@@ -6,7 +6,7 @@ from pymodbus.datastore import ModbusSequentialDataBlock
 data_block = ModbusSequentialDataBlock(0, [0] * 10)
 
 # Store the flag in register 5 (40006)
-flag_value = [ord(c) for c in "delogrand{R34D_2_ENUM}"]
+flag_value = [ord(c) for c in "delogrand{READ_2_ENUM}"]
 data_block.setValues(5, flag_value)
 
 # Create Modbus Memory Store
